@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  newArr= []
+  array.each do |number|
+   return newArr << number **2
+  puts "I like #{number}."
+  # return newArr << number **2
+end
 end
