@@ -1,8 +1,8 @@
 def square_array(array)
-  newArr= []
-  array.each do |number|
-   return newArr << number **2
-  puts "I like #{number}."
-  # return newArr << number **2
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
 end
-end
+
+arr = [1, 2, 3, 4, 5]
+square_array(arr)
